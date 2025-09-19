@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    height: 15vh;
+    margin-bottom: 8vh;
+    width: 100vw;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: white;
+}
+
+canvas {
+    border: 2px solid white;
+    height: 70vh;
+}
